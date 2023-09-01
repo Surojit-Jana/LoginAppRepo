@@ -21,6 +21,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		System.out.println("Update 1");
+		System.out.println("Update 2");
 		// general settings
 		response.setContentType("text/html");
 		PrintWriter printWriter = response.getWriter();
