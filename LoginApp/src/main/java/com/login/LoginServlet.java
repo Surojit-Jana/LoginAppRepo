@@ -20,6 +20,7 @@ public class LoginServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		System.out.println("Update 1");
 		// general settings
 		response.setContentType("text/html");
 		PrintWriter printWriter = response.getWriter();
